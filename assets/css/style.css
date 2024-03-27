@@ -14,11 +14,23 @@
     background-color: #f4f4f4;
 }
 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
 .bg-color-work-history {
     background-color: #9b59b6;
 }
 
 .bg-color-contact {
+    background-color: #ffffff;
+}
+
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
     background-color: #ffffff;
 }
 
@@ -35,7 +47,15 @@
 }
 
 .ui-menu-color-download {
-    background-color: #525252;
+    background-color: #d9a81d;
+}
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
+}
+
+.ui-menu-color-interests {
+    background-color: #e74c3c;
 }
 
 /* ----------- General paddings/margins/text */
@@ -362,6 +382,12 @@ button[type="submit"] {
     color: #fafafa;
     border: 0;
     background-color: #e84610;
+}
+
+/* ----------- Map */
+
+div#map {
+    min-height: 360px;
 }
 
 /* ----------- Media Query */
